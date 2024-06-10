@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    <style>
+        table{
+            border: 1px solid white;
+        }
+        #a1{
+            display:grid;
+            grid-template-areas: 'a1 a1''a1 b1''c1 c1''d1 d1';
+            text-align: left;
+            font-size: 20px;
+            padding-left: 10px;
+            padding-right:20px; 
+            padding-bottom: 90rem;
+            background-color: black;
+            color: rgb(184, 184, 26);
+            width: 300px;
+            height: 1000px;
+            border-radius: 10px;
+            word-spacing: 5px;
+        }
+        .boll,.holl{
+            padding-bottom: 10px;
+        }
+        .boll:hover,.holl:hover,#support:hover,#conditions:hover,#privacy:hover{
+            text-align: center;
+            background-color: rgb(46, 45, 45);
+            border-bottom: 2px solid rgb(184, 184, 26);
+            width:200px;
+            border-radius: 10px;
+            padding-bottom: 10px;
+        }
+        #b1{
+            background-color: black;
+            color: rgb(184, 184, 26);
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            padding-left: 10px;
+            
+        }
+        nav{
+            text-align: center;
+            font-size: 30px;
+            color:black;
+            background-color: rgb(184, 184, 26);
+            margin-right: 0px;
+            width: 7rem;
+            height: 30px;
+            padding-top: 10px;
+            padding-left: 94rem;
+            padding-bottom:10px;
+            border-radius: 10px;
+        }
+        #nav1{
+            text-align: center;
+            font-size: 70px;
+            color:rgb(184, 184, 26);
+            background-color: black;
+            margin-right: 0px;
+            width: 94rem;
+            height: 80px;
+            padding-top: 10px;
+            padding-left: 7rem;
+            padding-bottom:10px;
+            border-radius: 10px;
+        }
+        #container{
+            display: flex;
+            flex-direction: row;
+            padding: 20px; 
+        }
+        #container>div{
+            color: black;
+            text-align: center;
+            padding: 20px; 
+            margin: 20px; 
+            width: 300px;
+            height: 400px;
+            background-color:white;
+            border:8px solid rgb(184, 184, 26);
+        }
+        #h{
+            text-align: center;
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <i class="fa-solid fa-user"></i>
+    </nav>
+    <nav id="nav1">
+        <a>Binge Watcher</a>
+    </nav>
+    <table>
+        <tr>
+            <td id="a1">
+                <ul id="home" type="none">
+                        <h2><i class="fa-solid fa-house"></i> HOME</h2>
+                </ul>
+                <ul id="movie" type="none">
+                    <h3><i class="fa-solid fa-film"></i> Movies</h3>
+                    <li class="boll">Bollywood</li>
+                    <li class="holl">Hollywood</li>
+                </ul>
+                <ul id="shows" type="none">
+                    <h3><i class="fa-solid fa-tv"></i> Shows</h3>
+                    <li class="boll">Bollywood</li>
+                    <li class="holl">Hollywood</li>
+                </ul>
+                <ul id="community" type="none">
+                    <h3><i class="fa-solid fa-earth-americas"></i> Community</h3>
+                    <li class="boll"> Help Center</li>
+                    <li class="holl"> Contributor Zone</li>
+                    <li class="holl"> Polls</li>
+                </ul>
+                <ul id="support" type="none">
+                    <h3><i class="fa-solid fa-phone"></i> Support</h3>
+                </ul>
+                <ul id="conditions" type="none">
+                    <h3><i class="fa-solid fa-book"></i> Conditions of Use</h3>
+                </ul>
+                <ul id="privacy" type="none">
+                    <h3><i class="fa-solid fa-shield-halved"></i> Privacy Policy</h3>
+                </ul>
+            </td>
+            <td id="b1">
+                <h1 id="h"> Bollywood Movies</h1>
+                <div id="container">
+                    <div id="bm"><img src="https://rb.gy/28w8ng" width 200px height="250px"><br><h3>3 IDIOTS</h3><p>A comedy-drama revolving around the lives of three engineering students. Through their journey, the film explores themes of friendship, pursuing dreams, and challenging societal norms.</p></div>
+                    <div id="bm"><img src="https://rb.gy/nghqi5" width 200px height="250px"><br><h3>ZINGAGI NA MILEGI DOBARA</h3><p>Three friends embark on a road trip in Spain, where they confront their fears, rediscover themselves, and learn valuable life lessons. The film celebrates friendship, adventure, and seizing the moment.</p></div>
+                    <div id="bm"><img src="https://rb.gy/pf21zx"width 200px height="250px"><br><h3>GULLY BOY</h3><p>Inspired by the lives of Indian street rappers, Gully Boy follows the journey of an aspiring rapper from a Mumbai slum who defies societal expectations to pursue his passion for music.</p></div>
+                </div>
+                <div id="container">
+                    <div id="bm"><img src="https://rb.gy/iahnci"width 200px height="250px"><br><h3>QUEEN</h3><p>A heartwarming comedy-drama about a young woman named Rani who embarks on a solo honeymoon trip to Europe after her wedding is called off. Along the way, she discovers her independence, self-worth, and zest for life.</p></div>
+                    <div id="bm"><img src="https://bit.ly/4du9e1E"width 200px height="200px"><br><h3>WAKE UP SID</h3><p>A Bollywood coming-of-age film about Sid Mehra, a carefree young man in Mumbai, whose life changes when he fails his college exams. Through his friendship with Aisha, he discovers his passion and purpose, navigating themes of self-discovery and adulthood.</p></div>
+                    <div id="bm"><img src="https://rb.gy/lf9fgv"width 200px height="200px"><br><h3>YEH JAWANI HAI DEEWANI</h3><p>A Bollywood romantic drama about Bunny and Naina, two individuals with contrasting personalities who cross paths during a trekking trip with friends. As they navigate their relationships and aspirations, the film explores themes of friendship, love, ambition, and self-discovery.</p></div>
+                </div>
+                <h1 id="h">Hollywood Movies</h1>
+                <div id="container">
+                    <div id="bm"><img src="https://th.bing.com/th/id/OIP.PIPR5TN5OqejVzCfmtOpUQHaKk?w=115&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7" width 200px height="225px"><br><h3>THE IDEA OF YOU</h3><p> A romantic comedy about Emma, a young woman seeking adventure, who finds unexpected love and excitement when she meets Alex, a spontaneous photographer. As they embark on adventures together, Emma learns to embrace spontaneity and follow her heart.</p></div>
+                    <div id="bm"><img src="https://th.bing.com/th/id/OIP.yobjBRMMdekQvZwGHeebKgHaLH?w=118&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7" width 200px height="225px"><br><h3>THE SHAWSHANK REDEMPTION</h3><p>Based on Stephen King's novella, this powerful drama tells the story of Andy Dufresne, a banker wrongly convicted of murder, as he forms friendships and maintains hope while serving a life sentence in Shawshank State Penitentiary.</p></div>
+                    <div id="bm"><img src="https://th.bing.com/th/id/OIP.SoTin_IJWjPr74_PiZq6ZwHaLH?w=131&h=196&c=7&r=0&o=5&dpr=1.4&pid=1.7"width 200px height="225px"><br><h3>FORREST GUMP</h3><p>Forrest Gump follows the life of a simple man with a low IQ who unwittingly becomes involved in key historical events. Through his innocence and honesty, Forrest inspires those around him and proves that anyone can make a difference.</p></div>
+                </div>
+                <div id="container">
+                    <div id="bm"><img src="https://th.bing.com/th/id/OIP.NN9rKH-vZbFgtH4FuoW7OwHaLH?w=127&h=191&c=7&r=0&o=5&dpr=1.4&pid=1.7"width 200px height="225px"><br><h3>THE DARK KNIGHT</h3><p>The Dark Knight, directed by Christopher Nolan, is a gripping superhero film that pits Batman against his iconic nemesis, the Joker. Exploring themes of chaos, morality, and vigilantism, it's a thrilling and thought-provoking cinematic experience.</p></div>
+                    <div id="bm"><img src="https://th.bing.com/th/id/OIP.n-lW5hhF0w9CCmLzfl6aRAAAAA?w=115&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7"width 200px height="250px"><br><h3>INTERSTELLAR</h3><p>Directed by Christopher Nolan, Interstellar is a visually stunning sci-fi epic that follows a team of astronauts who embark on a journey through space in search of a new habitable planet to save humanity from extinction.</p></div>
+                    <div id="bm"><img src="https://th.bing.com/th/id/OIP.EZncYnNoDxdf2bBsnDbQigAAAA?w=183&h=260&c=7&r=0&o=5&dpr=1.4&pid=1.7"width 200px height="225px"><br><h3>THE GODFATHER</h3><p>A cinematic masterpiece, The Godfather is a crime epic that chronicles the Corleone family's rise to power in the Mafia underworld. With themes of loyalty, betrayal, and the consequences of violence, it's considered one of the greatest films of all time.</p></div>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
